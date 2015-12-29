@@ -109,7 +109,7 @@
 }
 
 - (void)setProgressColor:(UIColor *)progressColor {
-    //self.progressLayer.strokeColor = progressColor.CGColor;
+    self.progressLayer.strokeColor = progressColor.CGColor;
 }
 
 - (void)setProgress:(CGFloat)progress {
